@@ -4,7 +4,7 @@
 
 
 int main(void) {
-	char *text = "    {My text}        ";
+	char *text = "    My text}        ";
 	jparse(text, strlen(text));
   return 0;
 }

@@ -25,7 +25,7 @@ int jparse(char *stream, size_t len)
 
 	if (*start != '{' || *end != '}')
 	{
-		printf("Syntax error. Should open and close with curly braces.");
+		printf("Syntax error. Should open and close with curly braces.\n");
 		return -1;
 	}
 
