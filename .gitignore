@@ -1,0 +1,6 @@
+*.o
+*.nix
+.breakpoints
+.ccls-cache
+*.d
+Makefile
